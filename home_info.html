@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./remixicon/fonts/remixicon.css">
+     <link rel="stylesheet" href="./style.css">
+     <title>Real Estate</title>
+
+</head>
+<style>
+     body *{
+          /* border: 1px solid red; */
+     }
+     img {
+          width: 100px;
+          /* color: #afafaf; */
+     }
+</style>
+<body data-barba="wrapper" class="all:border-box relative mx-auto bg-gray-100 ">
+     <div data-barba="container" data-barba-namespace="home-info-page" class="sm:hidden">
+          
+          <div id="cover-page" class="home   w-full bg-gray-700 h-screen top-0 z-20 flex mt-0 justify-center items-center flex-col fixed">
+               <div class="absolute flex justify-center items-center h-[fit] w-[100%] overflow-hidden top-[12%]">
+                    <img id="logo-cover" class=" h-[1.7rem] w-[fit] object-contain transform   select-none " src="logo-cover.svg" alt="">
+               </div>
+               <p id="quote" class="text-white w-[76%] absolute bottom-[58%] leading-[2.1rem] text-center tracking-wider text-[.7rem] font-light select-none ">Your home is a physical and emotional comfort zone where you can heal and recover enough to address all your work problems the next morning.</p>
+               <img class="h-fit w-[9%] absolute bottom-[19%] object-contain" src="rolling.svg" alt="">
+          </div>
+          <div  class="relative w-full mb-4">
+               <a href="index.html"  class=" z-10 block fixed flex items-center h-12 pl-2 pt-4 ml-[.3rem] mt-[.8rem] ">
+                    <button class=" rounded-xl  backdrop-blur-sm bg-white/50 shadow-xl text-white w-[2.7rem] h-[2.7rem] flex justify-center items-center text-center bg-white rounded-md p-[.83rem] shadow-xl "><i class="ri-arrow-left-s-line font-extrabold text-gray-500 text-[1.8rem] "></i></button>
+               </a>
+               <div class="relative w-full ">
+                    <div class="overflow-hidden">
+                         <img id="house-img" class="w-full h-[60vh] object-top rounded-[0 0 50% .8rem] object-cover block" src="agent-1-3.jpg" alt="">
+                    </div>
+                    <div class="absolute rounded-md bg-[#ffffff40]  backdrop-blur-sm  shadow-xl text-white left-1/2 transfrom translate-x-[-50%] bottom-0 mb-[.9rem]  font-semibold rounded-md text-center  h-fit  w-fit py-[.6rem] px-5 flex justify-center flex-col">
+                         <p class=" tracking-wider text-[.65rem]  ">Price</p>
+                         <p id="house-price" class=" text-[.9rem] font-[600] ">$175,000.00</p>
+                    </div>
+               </div>
+          </div>
+          <div class="flex justify-between items-center mb-4 bg-white px-3 pl-3 h-[4.7rem] rounded-md shadow-md w-[93%] mx-auto ">
+               <img id="agent-img" class="w-[4rem] h-[3.4rem] bg-[#f97794] shadow-md object-top object-cover mr-6 rounded-md " src="loader.svg" alt="">
+               <div class="mr-auto  h-[2.5rem] ">
+                    <p id="agent-name" class="text-[0.8rem] font-bold text-gray-700 mb-1 "> Keen Jeffrey</p>
+                    <p class="text-[0.6rem] text-gray-800 ">View Agent Profile</p>
+               </div>
+               <a href="agent.html" class="block grid items-center ">
+                    <span class="mr-1.5  "><i class=" shadow-md text-center font-extrabold text-[1.1rem] text-gray-100 p-[.4rem]  bg-gray-400 rounded-[50%] ri-arrow-right-s-line "></i></span>
+               </a>
+          </div>
+          <div class="w-[93%] p-1 px-3.5 mx-auto mb-4 bg-white shadow-md rounded-md">
+               <div class="space-y-[.1rem] mt-3 mb-2">
+                    <h2 id="house-name" class="font-bold text-gray-700 text-[1.25rem] my-2 "></h2>
+                    <p id="house-location" class="text-[.68rem] text-gray-500 mb-2 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="mt-[3px] flex space-x-2.5">
+                         <div class="flex w-fit items-center">
+                              <span class="content-box p-1 "><i class="text-[0.8rem] text-gray-800 p-1 bg-gray-100 rounded-xl ri-hotel-bed-line"></i></span>
+                              <p id="room_number" class="text-[.7rem]"></p>
+                         </div>
+                         <div class="flex w-fit items-center">
+                              <span class="mr-1.5"><i class=" text-[0.8rem] text-gray-800 p-1 bg-gray-100 rounded-xl ri-lightbulb-line"></i></span>
+                              <p id="power_number" class="text-[.7rem]"></p>
+                         </div>
+                         <div class="flex w-fit items-center">
+                              <span class="mr-1.5"><i class=" text-[0.8rem] text-gray-800 p-1 bg-gray-100 rounded-xl ri-landscape-line"></i></span>
+                              <p id="landscape_size" class="text-[.7rem]"> <span class="font-semibold">mm</span> </p>
+                         </div>
+                    </div>
+               </div>
+               <div class="relative  ">
+                    <h3 class="font-bold text-gray-700 text-[.9rem] my-2 ">Description</h3>
+                    <p id="house-information" class="homeDetails text-[.68rem] h-[3.7rem] text-gray-500 overflow-hidden ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus id, sunt rerum inventore rem velit quidem quibusdam dolore quas autem blanditiis alias tempore magnam architecto! Natus voluptates, nulla aliquid vero nostrum necessitatibus qui. Excepturi ad libero laboriosam adipisci nihil, molestiae cum necessitatibus laudantium suscipit! Perferendis quibusdam dolor voluptas dignissimos sapiente.</p>
+               </div>
+               <div class="tranform translate-y-[0%] flex justify-center flex-col mx-auto w-full bg-white shadow-hide p-1 ">
+                    <p id="show-text" class="text-[.6rem] text-gray-700  text-center font-bold">See more</p>
+                    <button  id="show-btn" class="my-2">
+                         <span class="mr-1.5"><i class=" text-[1.1rem] p-[.4rem] font-extrabold text-gray-100  bg-gray-400 rounded-[50%] shadow-md ri-arrow-down-s-line"></i></span>
+                         <!-- <span class="mr-1.5 block"><i class=" shadow-md  font-extrabold text-[1.1rem] text-gray-100 p-[.4rem] bg-gray-400 rounded-[50%] ri-arrow-right-s-line "></i></span> -->
+                    </button>
+               </div>
+          </div>
+          <div class="flex justify-between w-[93%] mx-auto my-8 text-[.8rem] items-center ">
+               <div class="flex justify-between items-center text-gray-700">
+                    <span><i class="ri-hotel-line ri-2x"></i></span>
+                    <p class="text-underline font-[500] underline ">Request a Room Tour</p>
+               </div>
+               <button class="bg-gradient-to-r from-[#f97794] to-[#d939cd] text-[.7rem] shadow-md w-32 h-[2.7rem] rounded-[.5rem] font-[500] text-white/90 ">Rent <i class="ri-house-line"></i></button>
+          </div>
+     </div>
+     <p class=" hidden sm:block text-gray-500 text-center text-[3rem] font-bold mt-[8rem] "> I am still working on it.</p>
+     <script type="module" src="index.js"></script>
+</body>
+</html>
